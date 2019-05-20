@@ -1,0 +1,230 @@
+/*  */
+/* - - - - - - - - - - - GLOBAL STYLES - - - - - - - - - - - */
+/*  */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 23px;
+  line-height: 28px;
+}
+
+p a {
+  text-decoration: none;
+  color: #F55528;
+}
+
+p a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+p span {
+  //font-weight: 700;
+  font-style: italic;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+/*  */
+/* - - - - - - - - - - - MAIN CONTENT - - - - - - - - - - - */
+/*  */
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  /* background-color: red; */
+  padding: 60px 0px;
+}
+
+.intro {
+  padding: 30px 0px;
+  /* background-color: blue; */
+}
+
+.thumbnails {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.connect {
+  /* background-color: yellow; */
+  padding: 60px 0px;
+}
+
+/*  */
+/* - - - - - - - - - - - COPART CASE STUDY - - - - - - - - - - - */
+/*  */
+
+.tier_01 .container {
+  padding-bottom: 160px;
+}
+
+.tier_01 .container .role {
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #666666;
+}
+
+.tier_01 .container .work {
+  margin: 60px auto 0px auto;
+  display: block;
+}
+
+.tier_02 {
+  background-color: #4A90E2;
+  min-height: 1000px;
+  padding: 130px 0px;
+}
+
+.tier_02 .container_01 {
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.tier_02 .container_01 p {
+  color: #ffffff;
+}
+
+.tier_02 .container_01 .box_01 {
+  /* background-color: yellow; */
+  height: auto;
+  width: 40%;
+  float: left;
+}
+
+.tier_02 .container_01 .box_02 {
+  /* background-color: green; */
+  width: 60%;
+  float: right;
+}
+
+.tier_02 .container_02  .box_03{
+  clear: both;
+  /* background: red; */
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 10px;
+}
+
+.tier_02 .container_01 .box_02 img {
+  width: 100%;
+  height: auto;
+
+}
+
+.container_02 .box_03 img {
+  width: 31%;
+  margin: 1%;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.tier_03 {
+  max-width: 960px;
+  padding-top: 90px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.tier_03 .box {
+  /* background-color: red; */
+  padding: 20px;
+}
+
+.tier_03 .box:nth-child(2) {
+  padding-top: 0px;
+}
+
+.tier_03 .box img {
+  width: 100%;
+}
+
+.tier_03 .box p {
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*  */
+/* - - - - - - - - - - - BUDGIT CASE STUDY - - - - - - - - - - - */
+/*  */
+
+.budgit_tier_02 {
+  display: flex;
+  flex-direction: column;
+}
+
+.budgit_tier_02 .row_01 {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  height: 460px;
+}
+
+.budgit_tier_02  .row_01 img {
+  height: 460px;
+}
+
+.budgit_tier_02 .row_03 {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.budgit_tier_02 .row_03 .box_03, .box_04 {
+  width: 33.3%;
+  background-color: #ffffff;
+  height: 320px;
+  display: flex;
+}
+
+.budgit_tier_02 .row_03 .box_05 {
+  width: 33.3%;
+  background-color: #131313;
+  height: 320px;
+  display: flex;
+}
+
+.budgit_tier_02 .row_03 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.budgit_tier_03 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.budgit_tier_03 img {
+  width: 100%;
+  display: block;
+}
+
+
+
+/*  */
+/* - - - - - - - - - - - FOOTER - - - - - - - - - - - */
+/*  */
+
+footer {
+  /* background-color: green; */
+  padding: 30px 0px;
+  font-size: 0.9rem;
+  color: #888888;
+  font-style: italic;
+}
